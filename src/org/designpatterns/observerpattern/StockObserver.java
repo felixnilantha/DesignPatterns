@@ -9,7 +9,7 @@ public class StockObserver implements Observer{
 	private static int observerIdTracker = 0;
 
 	private int observerId;
-	
+	// this could be done using the Subject interface as well
 	private StockGrabber stockGrabber;
 
 	// this is in way coupling to a concretion
