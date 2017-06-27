@@ -5,7 +5,6 @@ class CreditCard implements PaymentStrategy {
 
 	private String name;
 	private String cardNumber;
-
 	private String cvv;
 	private String expiryDate;
 
